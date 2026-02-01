@@ -1,0 +1,37 @@
+/* Center everything on the screen */
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Heading style */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+    color: #764ba2;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+  }
+  
